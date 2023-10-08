@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple note-taking application to express your thoughts and ideas.">
+    <meta name="keywords" content="note, notes, note-taking, ideas, creativity, git , gitProject ">
+    <meta name="author" content="Ganeswar Sahoo">
+    <!-- Title for the page -->
+    <title>Note-taking App</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b449978812.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid p-4">
+        <!-- Header Section -->
+        <header class="d-flex justify-content-center">
+            <div class="fs-4 text-white text-center">
+                <h2>Welcome to Note-taking App</h2>
+                <p>Express your thoughts, ideas, and creativity in a beautiful way.</p>
+            </div>
+        </header>
+
+        <!-- "Add Notes" Button -->
+        <div class=" button-group d-flex justify-content-end  ">
+            <div type="button" class="btn btn-secondary " id="add">
+                <i class="fa-solid fa-plus"></i> Add Notes
+            </div>
+        </div>
+
+        <!-- Container for Notes -->
+        <div class="row mt-2" id="note">
+            <!-- Notes will be dynamically added here -->
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  font-family: "Roboto", sans-serif;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+      27deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(23, 23, 125, 1) 46%,
+      rgba(0, 212, 255, 1) 88%
+  ) no-repeat center center fixed !important;
+  background-size: cover !important;
+  
+}
+#textarea {
+  outline: 0;
+  resize: none;
+  background-color:transparent;
+  font-size: 1.4rem;
+  cursor: default;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+  border-bottom: none !important;
+  background-color: rgba(211, 207, 201, 0.836) !important;
+  transition: background-color 0.4s;
+}
+.card:hover {
+  background-color: rgba(243, 242, 241, 0.932) !important;
+  border-color: black !important;
+}
+
+.card-header {
+  height: 40px;
+}
+.card-header i {
+  cursor: pointer;
+  transition: color 0.3s ease,  transform 0.3s ease; 
+
+}
+.card-header i.clicked{
+  color: blue;
+  transform: scale(1.2); 
+
+  
+}
+
+
+@media only screen and (min-width: 1200px) {
+    main{
+        height: 100vh !important;
+    }
+}
+
+/* Works in Firefox */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Works in Chrome, Edge, and Safari */
+/* width */
+::-moz-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-moz-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-moz-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-moz-scrollbar-thumb:hover {
+  background: #555;
+}
